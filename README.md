@@ -1,5 +1,6 @@
-# floepsie
+# readme
 
+```json
 {
   "nonce": "0x0000000000000042",
     "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -11,6 +12,8 @@
     "extraData": "Custem Ethereum Genesis Block",
     "gasLimit": "0xffffffff"
 }
+```
+
 
 geth --networkid 123 --datadir ./nodes/test init genesis.json
 
