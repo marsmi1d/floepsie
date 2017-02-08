@@ -22,3 +22,4 @@ geth --datadir ./nodes/test/ --networkid 123 --nodiscover --maxpeers 0 console
 >personal.newAccount("floepie");
 "0x0499a04579f7f24ae71d0c6322350937b6372877"
 
+testerdetest
