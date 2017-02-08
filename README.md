@@ -22,3 +22,7 @@ Node 1: geth --genesis genesis.json --networkid 123 --datadir ./nodes/test -port
 Node 2: geth --genesis genesis.json --networkid 123 --datadir ./nodes/test -port 30302 --rpcport 8102 console
 
 admin.addpeer("enode://4254bdedbda2be4dbbc2502d2e1dd69a186390316522ed6fb4991db9955efdaaa6f04308ad7ff64e40b78954d5e9fe69de000b7f9cc2a1915ba9386c6d6edf78@<ip-adres>:30302")
+
+admin.nodeInfo.enode to get enode://....
+
+admin.peers laat andere peers zien
